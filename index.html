@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Trujillo Castro - Web Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin: 2rem 0;
+        }
+        .profile img {
+            border-radius: 50%;
+            max-width: 150px;
+            margin-right: 2rem;
+        }
+        section {
+            background: #fff;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        .project {
+            background: #f9f9f9;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .project img {
+            max-width: 100px;
+            margin-bottom: 1rem;
+        }
+        footer {
+            text-align: center;
+            margin: 2rem 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Javier Trujillo Castro</h1>
+    <p>Ingeniería Informática | Inteligencia Artificial</p>
+</header>
+
+<div class="container">
+    <section>
+        <div class="profile">
+            <img src="foto1.jpg" alt="Foto de Javier">
+            <div>
+                <p>Soy estudiante de cuarto año de Ingeniería Informática en la Universidad de Granada, especializado en Computación y Sistemas Inteligentes.</p>
+                <p>Mis intereses incluyen la Inteligencia Artificial, el procesamiento de imágenes y el desarrollo de modelos de Deep Learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Proyectos</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Reconocimiento de género</h3>
+                <img src="#" alt="Imagen del proyecto">
+                <p>Desarrollo de un sistema para identificar género utilizando LBP y SVM.</p>
+            </div>
+            <div class="project">
+                <h3>Complejidad de contraseñas</h3>
+                <img src="#" alt="Imagen del proyecto">
+                <p>Modelo que evalúa y clasifica la complejidad de contraseñas.</p>
+            </div>
+            <div class="project">
+                <h3>Calificación de redacciones</h3>
+                <img src="#" alt="Imagen del proyecto">
+                <p>Automatización de la calificación usando NLP.</p>
+            </div>
+            <div class="project">
+                <h3>Wearable para detección de caídas</h3>
+                <img src="foto2.jpg" alt="Imagen del proyecto wearable">
+                <p>Estoy haciendo un proyecto para la asignatura de Tecnologías Emergentes, en el que estoy implantando un ESP32 para un wearable que detecta caídas para personas mayores. Además, te envía por Telegram un mensaje y la ubicación de la caída.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Contacto: javitrucas@gmail.com</p>
+</footer>
+
+</body>
+</html>
